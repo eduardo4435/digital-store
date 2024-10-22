@@ -1,7 +1,9 @@
+import Layout from "./paginas/Layout";
+
 const App = () => {
   return (
     <>
-      <Header/>
+      <Layout/>
     </>
   );
 }
