@@ -1,9 +1,15 @@
+import ProductListing from "./componentes/ProductListing";
 import Layout from "./paginas/Layout";
+
 
 const App = () => {
   return (
     <>
-      <Layout/>
+        <Layout>
+          <ProductListing>
+          
+          </ProductListing>
+        </Layout>
     </>
   );
 }

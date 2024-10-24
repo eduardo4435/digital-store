@@ -1,8 +1,18 @@
-import DigitalStore from "../assets/logo.png"
+import DigitalStore from "../assets/logo.svg"
+import styled from "styled-components";
+
+const LogoConteiner = styled.header`
+    & {
+        width: 253px;
+        height: 44px;
+    }
+`
 
 const Logo = () => {
     return (
-        <img src={DigitalStore} alt="imagem" />
+        <LogoConteiner>
+            <img src={DigitalStore} alt="imagem" />
+        </LogoConteiner>
     );
 }
  
